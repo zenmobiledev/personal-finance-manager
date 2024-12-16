@@ -61,7 +61,7 @@ fun main() {
             }
 
             else -> {
-                println("Angka yang anda input tidak di ketahui")
+                println("Angka yang anda input tidak di ketahui\nsilakan coba lagi")
             }
         }
     } while (menu in 1..6)

@@ -3,5 +3,6 @@ package data
 data class Finance(
     val transactionType: TransactionType,
     val amount: Int,
-    val information: String
+    val information: String,
+    val date: String
 )

@@ -16,6 +16,7 @@ class TransactionHistory(private val finance: TransactionTracker) {
             for (i in totalIncome) {
                 println(
                     """
+                    Tanggal Transaksi: ${i.date}
                     Pemasukan: ${i.amount}
                     Keterangan: ${i.information}
                 """.trimIndent() + "\n"
@@ -31,6 +32,7 @@ class TransactionHistory(private val finance: TransactionTracker) {
             for (i in totalExpense) {
                 println(
                     """
+                    Tanggal Transaksi: ${i.date}
                     Pengeluaran: ${i.amount}
                     Keterangan: ${i.information}
                 """.trimIndent() + "\n"
