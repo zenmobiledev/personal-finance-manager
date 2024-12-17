@@ -34,7 +34,7 @@ class IncomeAndExpense(private val finance: TransactionTracker) {
                 amountExpense = inputExpense,
                 info = inputInformation
             )
-            println("Input pemasukan berhasil di rekam!\n")
+            println("Input pengeluaran berhasil di rekam!\n")
         } else {
             println("Input yang kamu masukan salah atau kosong!\n")
         }

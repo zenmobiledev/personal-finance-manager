@@ -3,17 +3,11 @@ package utils
 import data.Finance
 import data.IBalance
 import data.TransactionType
-import java.text.SimpleDateFormat
-import java.util.*
 
 object TransactionTracker : IBalance {
     private val transaction = mutableListOf<Finance>()
     private var income = 0
     private var expense = 0
-
-    private val formatter = SimpleDateFormat("yyyy-MM-dd HH:mm:ss")
-    private val date = Date()
-    private val formatTime = formatter.format(date)
 
     fun addIncome(amountIncome: Int, info: String) {
         income += amountIncome
@@ -22,7 +16,7 @@ object TransactionTracker : IBalance {
                 transactionType = TransactionType.INCOME,
                 amount = amountIncome,
                 information = info,
-                date = formatTime
+                date = DateUtils.getDateTime()
             )
         )
     }
@@ -34,14 +28,12 @@ object TransactionTracker : IBalance {
                 transactionType = TransactionType.EXPENSE,
                 amount = amountExpense,
                 information = info,
-                date = formatTime
+                date = DateUtils.getDateTime()
             )
         )
     }
 
-    fun getBalance(): Int {
-        return getBalance(income, expense)
-    }
+    fun getBalance(): Int = getBalance(income, expense)
 
     fun getTotalIncome(): Int = transaction.filter { it.transactionType == TransactionType.INCOME }.sumOf { it.amount }
 

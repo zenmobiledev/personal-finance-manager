@@ -17,6 +17,7 @@ class TransactionHistory(private val finance: TransactionTracker) {
                 println(
                     """
                     Tanggal Transaksi: ${i.date}
+                    
                     Pemasukan: ${i.amount}
                     Keterangan: ${i.information}
                 """.trimIndent() + "\n"
@@ -33,6 +34,7 @@ class TransactionHistory(private val finance: TransactionTracker) {
                 println(
                     """
                     Tanggal Transaksi: ${i.date}
+                    
                     Pengeluaran: ${i.amount}
                     Keterangan: ${i.information}
                 """.trimIndent() + "\n"
