@@ -11,7 +11,6 @@ melacak aktivitas keuangan seperti pemasukan atau pengeluaran, beserta keteranga
 
 - [Fitur Utama](#fitur-utama)
 - [Flowchart](#flowchart)
-- [Demo](#demo)
 - [Screenshot](#screenshot)
 
 ### Fitur Utama
@@ -27,12 +26,6 @@ melacak aktivitas keuangan seperti pemasukan atau pengeluaran, beserta keteranga
 | Image                            |
 |----------------------------------|
 | ![flowchart](assets/AppFlow.png) |
-
-### Demo
-
-| Video                           |
-|---------------------------------|
-| ![demo app](assets/DemoApp.gif) |
 
 ### Screenshot
 
