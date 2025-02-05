@@ -7,7 +7,7 @@
 *Personal Finance Manager Application* adalah aplikasi manajemen keuangan yang sederhana. Aplikasi ini dapat membantu
 melacak aktivitas keuangan seperti pemasukan atau pengeluaran, beserta keterangannya.
 
-## Daftar isi
+## Table of Contents
 
 - [Features](#features)
 - [Technology Used / Tech Stack](#technology-used--tech-stack)
