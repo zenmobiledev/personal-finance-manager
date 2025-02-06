@@ -51,36 +51,14 @@ To run the project locally, follow these steps:
 
 ## Tree / Folder Structure
 ```
-personal-finance-manager/
-├── assets/
-│   ├── screenshot.png
-│   └── demo.gif
-├── flow/
-│   └── flowchart.png
-├── src/
-│   └── main/
-│       └── kotlin/
-│           └── data/
-│               ├── Finance.kt
-│               ├── IBalance.kt
-│               └── TransactionType.kt
-│           └── features/
-│               ├── CalculateBalance.kt
-│               ├── FinancialAnalysis.kt
-│               ├── IncomeAndExpense.kt
-│               └── TransactionHistory.kt
-│           └── main/
-│               └── Main.kt        
-│           └── utils/
-│               ├── DateUtils.kt
-│               ├── ReadLn.kt
-│               └── TransactionTracker.kt
-├── .gitignore
-├── build.gradle.kts
-├── gradle.properties
-├── gradlew
-├── gradlew.bat
-└── settings.gradle.kts
+.
+└── src
+    └── main
+        └── kotlin
+            ├── data
+            ├── features
+            ├── main
+            └── utils
 ```
 
 ## Done
