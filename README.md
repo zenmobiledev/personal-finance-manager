@@ -13,7 +13,7 @@ melacak aktivitas keuangan seperti pemasukan atau pengeluaran, beserta keteranga
 - [Technology Used / Tech Stack](#technology-used--tech-stack)
 - [Installation (How to run the project)](#installation-how-to-run-the-project)
 - [Tree / Folder Structure](#tree--folder-structure)
-- [Todos](#todos)
+- [Done](#done)
 - [Flowchart](#flowchart)
 - [Preview](#preview)
 - [Demo](#demo)
@@ -83,11 +83,19 @@ personal-finance-manager/
 └── settings.gradle.kts
 ```
 
-## Todos
-- [x] Input Pemasukan dan Pengeluaran
-- [x] Perhitungan Saldo
-- [x] Riwayat Transaksi
-- [x] Analisis Keuangan
+## Done
+**Point Penilaian**:
+>- [x] Basic Functionality (Variables and Data Types, Arithmetic Operation, etc)
+>- [x] Control Flow (IF-Else, When, Looping)
+>- [x] Function Definition and Utilization
+>- [x] OOP Concepts (Classes, Objects, Properties, Methods)
+>- [x] Collection Data Management (MutableList)
+
+**Fitur Aplikasi**:
+>- [x] Input Pemasukan dan Pengeluaran
+>- [x] Perhitungan Saldo
+>- [x] Riwayat Transaksi
+>- [x] Analisis Keuangan
 
 ## Flowchart
 
